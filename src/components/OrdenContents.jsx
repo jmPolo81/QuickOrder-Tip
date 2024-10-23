@@ -14,7 +14,7 @@ export default function OrdenContents({ order, removeItem }) {
             <div className="flex items-center space-x-4">
               <img
                 className="w-16 h-16 object-cover"
-                src={`/public/img/${item.image}.jpg`}
+                src={`/img/${item.image}.jpg`}
                 alt={item.name}
               />
               <div>

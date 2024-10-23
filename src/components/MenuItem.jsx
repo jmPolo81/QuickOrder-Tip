@@ -8,7 +8,7 @@ export default function MenuItem({ item, addItem }) {
             onClick={() => addItem(item)}
         >
             <div>
-                <img className="w-24 h-24 object-cover" src={`/public/img/${item.image}.jpg`} alt={item.name} />
+                <img className="w-24 h-24 object-cover" src={`/img/${item.image}.jpg`} alt={item.name} />
             </div>
             
             <div className="flex flex-col justify-center items-center flex-grow text-center pt-4">
